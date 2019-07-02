@@ -1,4 +1,4 @@
-let svgSprite = require('gulp-svg-sprite'),
+const svgSprite = require('gulp-svg-sprite'),
     svgmin = require('gulp-svgmin'),
     cheerio = require('gulp-cheerio'),
     replace = require('gulp-replace'),

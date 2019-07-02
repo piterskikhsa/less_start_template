@@ -1,4 +1,4 @@
-let uglify = require('gulp-uglify'),
+const uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
     scriptsPATH = {
         "input": "./dev/static/js/",

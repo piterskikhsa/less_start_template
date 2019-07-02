@@ -1,4 +1,4 @@
-let imagemin = require('gulp-imagemin'),
+const imagemin = require('gulp-imagemin'),
     imageminJpegRecompress = require('imagemin-jpeg-recompress'),
     pngquant = require('imagemin-pngquant'),
     cache = require('gulp-cache'),
